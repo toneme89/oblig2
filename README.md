@@ -5,4 +5,4 @@ Oblig
 
 - Vet ikke helt. Blir forvirret av git. Vidar
 
-- Prøver å redigere én gang til.
+- Prøver å redigere én gang til. dgmskgfdmgkslmg
