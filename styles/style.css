@@ -161,12 +161,22 @@ section.imageholder h1 {
 }
 
 footer {
+	position: relative;
 	background-color: #455073;
 	padding: 10px 15px;
 	color: #fff;
-	font-size: 30px;
+	font-size: 25px;
 	font-stretch: condensed;
 	font-weight: bold;
-	border-bottom: 1px dashed #fff;
+	
 
+}
+
+#fb {
+	float: right;
+	margin-left: right;
+	display: flex;
+	border: 1px solid #fff;
+	max-width: 25px;
+	max-width: 25px;
 }
