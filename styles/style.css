@@ -160,3 +160,13 @@ section.imageholder h1 {
 
 }
 
+footer {
+	background-color: #455073;
+	padding: 10px 15px;
+	color: #fff;
+	font-size: 30px;
+	font-stretch: condensed;
+	font-weight: bold;
+	border-bottom: 1px dashed #fff;
+
+}
