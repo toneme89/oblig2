@@ -6,6 +6,17 @@ html, body {
 	font-family: 'Roboto', helvetica, arial, sans-serif;
 }
 
+#modeller {
+	border-bottom: 1px dotted #000;
+	border-top: 1px dotted #000;
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-top: 20px;
+	margin-top: 30px;
+	text-align: center;
+
+}
+
 #logo {
 	display: flex;
 	justify-content: center;
@@ -54,9 +65,12 @@ img {
 	width: 100%;
 }
 
+
+
 /* MEDIA SCREEN */
 
 @media screen and (min-width: 30em) {
+
 
 #logo {
 	display: flex;
@@ -129,13 +143,13 @@ section.image h1 {
 	text-align: center;
 	display: block;
 	position: relative;
-	top: -110px;
+	top: -70px;
 	font-size: 32px;
 	text-transform: uppercase;
 	font-weight: 100;
-	color: #000;
+	color: white;
 	margin: 0 auto;
-	max-width: 400px;
+	max-width: 500px;
 	padding: 10px;
 	border-bottom: 1px dashed #000;
 	border-top: 1px dashed #000;
@@ -155,6 +169,7 @@ section.image h1 {
 	border: none;
 	}
 }
+
 
 footer {
 	position: relative;
