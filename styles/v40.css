@@ -7,18 +7,21 @@ html, body {
 }
 
 #modeller {
-	border-bottom: 1px dotted #000;
 	border-top: 1px dotted #000;
+	border-bottom: 1px dotted #000;
 	padding-left: 10px;
 	padding-right: 10px;
 	padding-top: 20px;
+	padding-bottom: 10px;
 	margin-top: 30px;
 	text-align: left;
 	text-transform: uppercase;
 	margin: 0 auto;
 	width: 1200px;
-	
-
+}
+.image1 {
+	flex-direction: row;
+	align-items: baseline;
 }
 
 #logo {
@@ -67,6 +70,56 @@ img {
 	margin: 0;
 	padding: 0;
 	width: 100%;
+}
+
+
+
+
+#cross1 {
+	display: flex;
+	margin: 5px;
+	padding: 5px;
+	width: 40%;
+	
+}
+
+#cross2 {
+	display: flex;
+	margin: 5px;
+	padding: 5px;
+	width: 40%;
+	
+	
+}
+
+#cross3 {
+	display: flex;
+	margin: 5px;
+	padding: 5px;
+	width: 40%;
+	
+}
+
+
+#v401 {
+	margin: 5px;
+	padding: 5px;
+	width: 40%;	
+	display: flex;
+}
+
+#v402 {
+	margin: 5px;
+	padding: 5px;
+	width: 40%;
+	display: flex;
+}
+
+#v403 {
+	margin: 5px;
+	padding: 5px;
+	width: 40%;
+	display: flex;
 }
 
 
@@ -162,6 +215,16 @@ section.image h1 {
 img {
 	width: 100%;
 }
+#cross1 {
+	width: 40%;
+}
+#cross2 {
+	width: 40%;
+}
+#cross3 {
+	width: 40%;
+}
+
 
 }
 
@@ -183,4 +246,5 @@ footer {
 	font-size: 25px;
 	font-stretch: condensed;
 	font-weight: bold;
+	margin-top: 70px;
 }
