@@ -209,11 +209,15 @@ section.imageholder {
 	}
 
 section.imageholder {
-	display: block;
-	width: 100%;
-	margin: 0 auto;
-	position: relative;
-	padding: 0;
+	height: 100vh;
+	background-image: url("../img/volvo1.jpg");
+	background-color: #cccccc;
+	background-size: cover;
+	margin-bottom: 50px;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-end;
+	text-align: center;
 }
 
 img {
@@ -224,19 +228,14 @@ img {
 }
 
 section.imageholder h1 {
-	text-align: center;
-	display: block;
 	position: relative;
-	top: -150px;
+	top: -200px;
 	font-size: 37px;
 	text-transform: uppercase;
 	font-weight: 100;
-	color: #000;
-	margin: 0 auto;
-	max-width: 400px;
-	padding: 10px;
-	border-bottom: 1px dashed #000;
-	border-top: 1px dashed #000;
+	color: #fff;
+	padding: 10px 0;
+	background-color: rgba(0,0,0,0.5);
 	}
 
 .footerWrap {
@@ -321,27 +320,4 @@ section.imageholder h1 {
 }
 
 }
-@media screen and (max-width: 700px) {
 
-section.imageholder h1 {
-	color: #fff;
-	background-color: #000;
-	border: none;
-	}
-
-.item {
-	display: flex;
-	flex-wrap: wrap;
-	flex: 0 1 calc(50% - .5em);
-        margin-bottom: 1em;
-}
-
-.item img {
-	width: 120%;
-	margin-left: -24px;
-	padding: 0;
-}
-
-
-
-}
