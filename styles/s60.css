@@ -1,0 +1,22 @@
+.s60  {
+	display: flex;
+	width: 60%;
+	margin: 1em auto;
+	margin-bottom: 9em;
+}
+.s60tekst {
+	clear:both;
+}
+section p{
+	display: flex;
+	width: 80%;
+	text-align: center;
+	margin: 1em auto;
+	
+}
+
+/*
+section.imageholder img {
+	display: none;
+	}
+	*/

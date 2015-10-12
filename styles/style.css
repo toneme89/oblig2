@@ -18,7 +18,7 @@ html, body {
 	}
 
 
-nav.menu ul {
+.menu ul {
 	list-style-type: none;
 	text-align: center;
 	padding: 0;
@@ -26,7 +26,7 @@ nav.menu ul {
 	background-color: #455073;
 }
 
-nav.menu ul li {
+.menu ul li {
 	color: #fff;
 	font-size: 47px;
 	font-variant: small-caps;
@@ -36,23 +36,110 @@ nav.menu ul li {
 	border-bottom: 1px dashed #fff;
 }
 
-nav.menu ul li:last-child {
+.menu ul li:last-child {
 	margin-bottom: 0;
 }
 
-nav.menu ul li a {
+.menu ul li a {
 	text-decoration: none;
 	color: #fff;
 }
 
-section.imageholder h1 {
+section.imageholder {
 	display: none;
-	}
+}
 
-img {
-	margin: 0;
+.footerWrap {
+    display: flex;
+    background: hsl(0, 0%, 15%);
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.copyright h2 {
+	display: none;
+
+}
+
+.social-menu ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    list-style: none;
+    margin: 10px 15px 10px 0;
+    padding: 0;
+}
+
+.styleSocial li a {
+		margin: 0;
+    padding: 0 10px;
+    color: #fff;
+    font-size: 30px;
+    list-style: none;
+    text-decoration: none;
+    opacity: 1;
+}
+
+.social-menu li a:before {
+    font-family: 'Fontawesome';
+    -webkit-font-smoothing: antialiased;
+    content: '\f08e';
+}
+
+.social-menu li a[href*="facebook.com"]::before { content: '\f09a'; }
+
+.social-menu li a[href*="instagram.com"]::before { content: '\f16d'; }
+
+.social-menu li a[href*="twitter.com"]::before { content: '\f099'; }
+
+.social-menu li a[href*="youtube.com"]::before { content: '\f167'; }
+
+
+.item {
+	
+	margin-bottom: 10px;	
+}
+
+.item a {
+	color: black;
+	text-decoration: none;
+}
+
+.item a:hover {
+	box-shadow: 3px 3px 8px hsl(0, 0%, 70%);
+}
+
+.text {
+	padding: 1.4em;
+}
+
+.text h2 {
+	margin-top: 0;
+	margin-bottom: .5em;
+	font-weight: normal;
+}
+
+.text p {
+	font-size: 95%;
+}
+
+.item img {
+	width: 120%;
+	margin-left: -50px;
 	padding: 0;
-	width: 100%;
+	margin-right: 
+}
+
+.about {
+	position: relative;
+	background-color: #455073;
+	padding: 10px 15px;
+	color: #fff;
+	font-size: 25px;
+	font-stretch: condensed;
+	font-weight: bold;
+	
+
 }
 
 
@@ -72,7 +159,7 @@ img {
 	opacity: 1;
 }
 
-nav.menu ul {
+.menu ul {
 	list-style-type: none;
 	display: flex;
 	flex-wrap: wrap;
@@ -82,7 +169,7 @@ nav.menu ul {
 	background-color: #455073;
 }
 
-nav.menu ul li {
+.menu ul li {
 	color: #fff;
 	font-size: 20px;
 	font-variant: small-caps;
@@ -93,20 +180,20 @@ nav.menu ul li {
 	border-bottom: none;
 }
 
-nav.menu ul li:first-child {
+.menu ul li:first-child {
 	border-left: 1px dashed #fff;
 }
 
-nav.menu ul li:last-child {
+.menu ul li:last-child {
 	margin-bottom: 0;
 }
 
-nav.menu ul li a {
+.menu ul li a {
 	text-decoration: none;
 	color: #fff;
 }
 	
-nav.menu ul li a {
+.menu ul li a {
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: center;
@@ -117,22 +204,31 @@ nav.menu ul li a {
 }
 
 
-nav.menu ul li:hover {
+.menu ul li:hover {
 	background-color: rgba(255, 255, 255, 0.4);
 	}
 
-.imageholder {
+section.imageholder {
 	display: block;
 	width: 100%;
 	margin: 0 auto;
+	position: relative;
+	padding: 0;
+}
+
+img {
+	display: block;
+	width: 100%;
+	margin-bottom: 0;
+	padding: 0;
 }
 
 section.imageholder h1 {
 	text-align: center;
 	display: block;
 	position: relative;
-	top: -110px;
-	font-size: 32px;
+	top: -150px;
+	font-size: 37px;
 	text-transform: uppercase;
 	font-weight: 100;
 	color: #000;
@@ -143,12 +239,88 @@ section.imageholder h1 {
 	border-top: 1px dashed #000;
 	}
 
-img {
+.footerWrap {
+    display: flex;
+    background: hsl(0, 0%, 15%);
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.copyright h2 {
+	display: flex;
+	text-transform: uppercase;
+	font-weight: 100;
+	color: #fff;
+	font-size: 14px;
+	margin: 10px 15px 10px 0;
+	padding: 0 10px;
+  justify-content: flex-start;
+  opacity: 0.5;
+
+}
+
+.social-menu ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    list-style: none;
+    margin: 10px 15px 10px 0;
+    padding: 0;
+}
+
+.styleSocial li a {
+		margin: 0;
+    padding: 0 10px;
+    color: #fff;
+    font-size: 14px;
+    list-style: none;
+    text-decoration: none;
+    opacity: 0.5;
+}
+
+.styleSocial li a:hover {
+		opacity: 1;
+}
+
+.social-menu li a:before {
+    font-family: 'Fontawesome';
+    -webkit-font-smoothing: antialiased;
+    content: '\f08e';
+}
+
+.social-menu li a[href*="facebook.com"]::before { content: '\f09a'; }
+
+.social-menu li a[href*="instagram.com"]::before { content: '\f16d'; }
+
+.social-menu li a[href*="twitter.com"]::before { content: '\f099'; }
+
+.social-menu li a[href*="youtube.com"]::before { content: '\f167'; }
+
+.main-content {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	margin-top: -1em;
+}
+
+.item {
+	display: flex;
+	flex-wrap: wrap;
+	flex: 0 1 calc(33% - .5em);
+  margin-bottom: 1em;
+}
+
+.center {
+	margin: 0 auto;
+}
+
+.item img {
 	width: 100%;
+	margin-left: -10px;
+	padding: 0;
 }
 
 }
-
 @media screen and (max-width: 700px) {
 
 section.imageholder h1 {
@@ -157,17 +329,19 @@ section.imageholder h1 {
 	border: none;
 	}
 
-
+.item {
+	display: flex;
+	flex-wrap: wrap;
+	flex: 0 1 calc(50% - .5em);
+        margin-bottom: 1em;
 }
 
-footer {
-	position: relative;
-	background-color: #455073;
-	padding: 10px 15px;
-	color: #fff;
-	font-size: 25px;
-	font-stretch: condensed;
-	font-weight: bold;
-	
+.item img {
+	width: 120%;
+	margin-left: -24px;
+	padding: 0;
+}
+
+
 
 }
