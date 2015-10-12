@@ -131,14 +131,26 @@ section.imageholder {
 }
 
 .about {
-	position: relative;
 	background-color: #455073;
 	padding: 10px 15px;
 	color: #fff;
-	font-size: 25px;
-	font-stretch: condensed;
-	font-weight: bold;
-	
+}
+
+.about h2 {
+	margin-top: 50px;
+	opacity: 0.8;
+	border-bottom: 1px solid #000;
+	padding: 10px;
+	text-transform: uppercase;
+}
+
+.about p {
+	padding: 10px;
+	text-transform: uppercase;
+	font-weight: 100;
+	line-height: 30px;
+	text-align: justify;
+	margin-bottom: 50px;
 
 }
 
@@ -317,6 +329,13 @@ section.imageholder h1 {
 	width: 100%;
 	margin-left: -10px;
 	padding: 0;
+}
+
+.about {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-items: center;
 }
 
 }
