@@ -127,7 +127,6 @@ section.imageholder {
 	width: 120%;
 	margin-left: -50px;
 	padding: 0;
-	margin-right: 
 }
 
 .about {
@@ -317,12 +316,8 @@ section.imageholder h1 {
 .item {
 	display: flex;
 	flex-wrap: wrap;
-	flex: 0 1 calc(50% - .5em);
-  margin-bottom: 1em;
-}
-
-.center {
-	margin: 0 auto;
+	flex: 0 1 50%;
+  margin-bottom: 10px;
 }
 
 .item img {
@@ -342,17 +337,11 @@ section.imageholder h1 {
 
 @media screen and (min-width: 770px) {
 
-
-
-
 .item {
 	display: flex;
 	flex-wrap: wrap;
-	flex: 0 1 calc(33% - .5em);
-  margin-bottom: 1em;
+	flex: 0 1 33%;
+  margin-bottom: 10px;
 }
 
-
-
 }
-
